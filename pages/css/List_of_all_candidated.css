@@ -1,0 +1,91 @@
+
+
+.displayed{
+	width: 100%;
+	border: none;
+
+}
+.addnew {
+width: 0%;
+height: 83vh;
+margin: 10px 21px;
+border-radius: 11px;
+}
+form button{
+border: none;
+padding: 21px;
+width: 222px;
+margin: 7px 20%;
+border-radius: 20px;
+font-size: 18px;
+background: rgb(242, 136, 242);
+color: white;
+}
+form button{
+border: none;
+padding: 18px;
+width: 222px;
+margin: 7px 20%;
+border-radius: 20px;
+font-size: 18px;
+cursor: pointer;
+transition:0.5s ease-in-out;
+font-size: 20px;
+box-shadow: 0px 3px 20px 0px #2c272d52;
+
+}
+form button:hover{
+border: none;
+padding: 18px;
+width: 222px;
+margin: 7px 20%;
+border-radius: 20px;
+font-size: 18px;
+cursor: pointer;
+background: none;
+border: solid 2px #f288f2;
+color: black;
+transition:0.3s ease-in-out;
+box-shadow: 0px 3px 20px 0px rgb(110, 116, 109);
+}
+.delete{
+border: none;
+background: #fb53539a;
+width: 99px;
+padding: 12px;
+border-radius: 10px;
+font-size: 17px;
+text-transform: capitalize;
+transition:0.5s ease-in-out;
+cursor:pointer;
+
+
+}
+.delete:hover{
+background: #f23636d4;
+box-shadow: 0px 3px 20px 0px rgb(110, 116, 109);
+}
+
+
+.update{
+border: none;
+background: #bbd3e9;
+width: 99px;
+border-radius: 10px;
+padding: 12px;
+font-size: 17px;
+text-transform: capitalize;
+transition:0.5s ease-in-out;
+cursor:pointer;
+
+}
+.update:hover{
+background: #8dc0f0;
+box-shadow: 0px 3px 20px 0px rgb(110, 116, 109);
+}
+button a{	
+color: white;
+
+
+}
+

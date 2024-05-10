@@ -1,0 +1,30 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.candidate{
+	width: 555px;
+	height: auto;
+}
+h2{
+	text-align: center;
+}
+img{
+	position: absolute;
+	left: 25px;
+	top: 12px;
+	border-radius: 50%;
+	box-shadow: -1px 1px 20px 3px #302828;
+	cursor: pointer;
+	transition:0.7s ease-in-out;
+}
+img:hover{
+	position: absolute;
+	left: 25px;
+	top: 12px;
+	border-radius: 50%;
+	box-shadow: -1px 1px 20px 3px #d976e4b3;
+	cursor: pointer;
+	transition:0.7s ease-in-out;
+}

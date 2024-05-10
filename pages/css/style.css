@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.container{
+    height: 97vh;
+    width: 100%;
+   background-image: linear-gradient(to right,#cef5cecc,#d1c5af71);
+    margin: 10px auto;
+    border-radius: 21px;
+    box-shadow: 1px 4px 15px 1px #4e4b4b;
+    position: absolute;
+    
+}
+.container .icon img{
+    width: 41px;
+    right: 60px;
+    top: 11px;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.container .card1{ 
+   cursor: pointer;
+    width: 332px;
+    height: 35vh;
+    background: #ebe2e2;
+    margin: 40px -127px;
+    border-radius: 11px;
+    box-shadow: 1px 1px 15px 0px #74707077;
+    display: flex;
+    flex-direction: row;
+    transition: 0.3s ease-in-out;
+}
+.container .card1:hover{ 
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 1px 1px 15px 0px #393b38bb;
+ }
+ .card1 h2{
+     text-align: center;
+     margin: 0px 72px;
+ }
+.part1{
+    display: flex;
+    justify-content: space-evenly;
+     margin: 21px -221px;
+}
+/* side bar */
+.rightsider{
+    width: 322px;
+    height: 97vh;
+    background: #d3d2d2;
+    position: absolute;
+}
+.leftsider{
+     height: 100vh;
+    width: 74%;
+    margin: 0px 400px;
+}
+
+.rightsider ul{
+    text-align: center;
+    line-height: 66px;
+    margin: 130px 22px;
+}
+.rightsider li a{
+    text-decoration: none;
+    font-size: 21px;
+    color: black;
+}
+.viewed{
+    font-size: 75px;
+    margin: 31px -200px;
+}

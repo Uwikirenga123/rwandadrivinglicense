@@ -1,0 +1,30 @@
+.report{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.report button{
+	padding: 13px;
+	width: 117px;
+	margin: 12px 11px;
+	border-radius: 7px;
+	border: solid 2px #bb0cce;
+	transition:0.7s ease-in-out;
+	
+}
+.report button:hover{
+	background: #bb0cce;
+	border: solid 2px white;
+	box-shadow: 1px 3px 4px #bb0cce;
+	transition:0.7s ease-in-out;
+	
+ 
+	
+}
+.report button a{
+	color: rgb(0, 0, 0);
+	font-size: 17px;
+}
+.report button a:hover{
+	color: white;
+ }
